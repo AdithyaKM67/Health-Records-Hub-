@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="hospital.css">
+  <title>Hospital Home Page</title>
+</head>
+<body>
+
+<div class="hospital-card">
+    <h2><span><%=name %></span></h2>
+  <p>Hospital ID: <span><%=username %></span></p>
+  <a href="login"><button class="logout-button">Logout</button></a>
+</div>
+
+<div class="patient-form-card">
+  <h2>Add Patient Record</h2>
+  <form action="/hospital" method="post">
+    <label for="patientid">Patient ID:</label>
+    <input type="text" id="patientid" name="patientid" required>
+    <br><br>
+    <label for="treatmentname">Treatment Name:</label>
+    <input type="text" id="treatmentname" name="treatmentname" required>
+    <br><br>
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" required></textarea>
+    <br><br>
+    <label for="costincurred">Cost Incurred:</label>
+    <input type="number" id="costincurred" name="costincurred" required>
+    <br><br>
+    <label for="dateoftreatment">Date of Treatment:</label>
+    <input type="date" id="dateoftreatment" name="dateoftreatment" required>
+    <br><br>
+    <label for="referencedoctor">Reference Doctor:</label>
+    <input type="text" id="referencedoctor" name="referencedoctor" required>
+    <br><br>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+
+</body>
+</html>

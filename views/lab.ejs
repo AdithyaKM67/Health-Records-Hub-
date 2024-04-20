@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="lab.css">
+  <title>Lab Home Page</title>
+</head>
+<body>
+
+<div class="hospital-card">
+  <h2><span><%=name %></span></h2>
+  <p>Lab ID: <span><%=username %></span></p>
+  <a href="login"><button class="logout-button">Logout</button></a>
+</div>
+
+<div class="patient-form-card">
+  <h2>Add Patient Record</h2>
+  <form action="/lab" method="post">
+    <label for="patientid">Patient ID:</label>
+    <input type="text" id="patientid" name="patientid" required>
+    <br><br>
+    <label for="scanningname">Scanning Name:</label>
+    <input type="text" id="scanningname" name="scanningname" required>
+    <br><br>
+    <label for="inference">Inference:</label>
+    <textarea id="inference" name="inference" required></textarea>
+    <br><br>
+    <label for="costincurred">Cost Incurred:</label>
+    <input type="number" id="costincurred" name="costincurred" required>
+    <br><br>
+    <label for="dateofscanning">Date of Scanning:</label>
+    <input type="date" id="dateofscanning" name="dateofscanning" required>
+    <br><br>
+    <label for="referencenumber">Reference No of Scanned Document :</label>
+    <input type="text" id="referencenumber" name="referencenumber" required>
+    <br><br>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+
+</body>
+</html>

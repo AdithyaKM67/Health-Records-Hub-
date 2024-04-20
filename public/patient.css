@@ -1,0 +1,49 @@
+
+
+   body {
+    font-family: 'Arial', sans-serif;
+    background-color: #808080 !important;
+}
+
+.patient-card {
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+.patient-card span {
+    font-weight: bold;
+}
+
+.adminnavbar {
+    background-color: #28a745;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0) !important;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #28a745;
+    border-radius: 10px;
+}
+
+#hospital-container div, #lab-container div {
+    margin-bottom: 20px;
+}
+
+#hospital-container hr, #lab-container hr {
+    border-top: 1px solid #28a745;
+}
+
+

@@ -1,0 +1,81 @@
+
+
+   body {
+    font-family: 'Arial', sans-serif;
+    background-color: #808080;
+    margin: 0;
+}
+
+.hospital-card {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hospital-card h2 {
+    margin: 0;
+}
+
+.hospital-card span {
+    font-weight: bold;
+}
+
+.logout-button {
+    background-color: white;
+    color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logout-button:hover {
+    background-color: #d4edda;
+}
+
+.patient-form-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.patient-form-card h2 {
+    color: #28a745;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+

@@ -1,0 +1,21 @@
+{
+  "name": "hrh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ADITHYA",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "express-session": "^1.18.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.2.0",
+    "pdfkit": "^0.14.0"
+  }
+}

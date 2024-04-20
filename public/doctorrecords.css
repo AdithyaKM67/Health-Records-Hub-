@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #808080 !important ;
+}
+
+.adminnavbar {
+    background-color: #28a745;
+    padding: 10px 0;
+}
+
+/* .navbar-nav {
+    margin-left: auto;
+} */
+
+/* .nav-item {
+    margin-right: 15px;
+} */
+
+.nav-link {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #28a745;
+}
+
+#hospital-container, #lab-container {
+    margin-top: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+}
+
