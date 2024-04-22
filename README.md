@@ -8,3 +8,7 @@ repository for patient records, offering a secure and inter-operable platform fo
 providers to share vital medical information. The system aims to facilitate seamless access
 and mobility of patient data, overcoming issues related to record transfer, patient data
 accessibility, and the redundancy of medical tests.
+Steps to run- Firstly open cmd and run mongod .Minimize it.
+Then open vs code and open terminal and run node app.js.
+then open a browser and set url as localhost:3000/.
+for admin-username and password is admin.
